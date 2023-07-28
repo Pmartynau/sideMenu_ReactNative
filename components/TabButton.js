@@ -28,13 +28,13 @@ export const TabButton =({currentTab, setCurrentTab, text, icon} )=>{
                     tintColor: currentTab == text ? "#5359D1" : "white"
                 }}></Image>*/}
                 <Icon
-                    name={icon} color={currentTab == text ? "#5359D1" : "white"} />
+                    name={icon} color={currentTab == text ? "#2f95dc" : "white"} />
 
                 <Text style={{
                     fontSize: 15,
                     fontWeight: 'bold',
                     paddingLeft: 15,
-                    color: currentTab == text ? "#5359D1" : "white"
+                    color: currentTab == text ? "#2f95dc" : "white"
                 }}>{text}</Text>
 
             </View>

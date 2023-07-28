@@ -1,15 +1,15 @@
 
 
 export const tabs=[
-    { id: 1, text: "Accueil",  icon: 'home' },
-    { id: 2, text: "Mes projets",  icon:   'cases'  },
+    { id: 1, text: "Home",  icon: 'home' },
+    { id: 2, text: "Services",  icon:   'cases'  },
     {
         id: 3,
-        text: "Taches reçues ",
+        text: "Financing ",
 
         icon:  'assignment' ,
     },
-    { id: 4, text: "Profile",  icon:  'person'   },
+    { id: 4, text: "Contact Us",  icon:  'person'   },
 
 
 ];

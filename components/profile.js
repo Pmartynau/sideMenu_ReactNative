@@ -6,8 +6,8 @@ export  const Profile=({name, profileImage})=>{
     return (
         <View style={{ marginTop:"15%", marginLeft:"3%" }}>
         <Image source={profileImage} style={{
-            width: 70,
-            height: 70,
+            width: 120,
+            height: 75,
             borderRadius: 10,
             marginTop: 8
         }}></Image>
@@ -24,7 +24,7 @@ export  const Profile=({name, profileImage})=>{
             <Text style={{
                 marginTop: 4,
                 color: 'white'
-            }}>View Profile</Text>
+            }}>Heating and Cooling</Text>
         </TouchableOpacity>
         </View>);
 

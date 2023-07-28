@@ -9,7 +9,7 @@ import menu from './assets/menu.png';
 import close from './assets/close.png';
 
 // Photo
-import profileImage from './assets/profile.jpeg';
+import profileImage from './assets/group.png';
 import {TabButton} from "./components/TabButton";
 import {Profile} from "./components/profile";
 import CurrentScreen from "./screens/CurrentScreen";
@@ -31,7 +31,7 @@ export default function App() {
       <SafeAreaView style={styles.container}>
 
         <View style={{ justifyContent: 'flex-start', padding: 15 }}>
-          <Profile name="Allamed" profileImage={profileImage}/>
+          <Profile name="Simply Efficient" profileImage={profileImage}/>
 
           <View style={{ flexGrow: 1, marginTop: 50 }}>
             {
@@ -45,18 +45,7 @@ export default function App() {
 
 
           </View>
-
-          <View>
-
-            <TabButton currentTab={currentTab} setCurrentTab={setCurrentTab} text={logOutTab.text} icon={logOutTab.icon} key={logOutTab.id}></TabButton>
-
-          </View>
-
         </View>
-
-        {
-          // Over lay View...
-        }
 
         <Animated.View style={{
           flexGrow: 1,
@@ -141,7 +130,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#3c6382',
+    backgroundColor: '#435C1D',
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
   },
